@@ -1,0 +1,20 @@
+-> ~0.2.0 et avant :
+
+********************************************************************************
+1 : Vers l'infini et au-delà !
+********************************************************************************
+
+Conditions :
+
+Un bug qui arrive parfois, semble-t-il, quand les deux joueurs se frappent en même temps (à vérifier).
+NOTE : ne semble plus se produire depuis la 0.2.1 ou même avant... À vérifier.
+
+Descriptif :
+
+Les joueurs se mettent à s'envoler, comme s'ils recevaient des coups en continu (KO tout le temps en mode [F2]).
+
+Les joueurs cessent de s'envoler quand l'un d'eux change de direction ou frappe.
+
+Le décollage est parfois très rapide, d'où le nom du bug.
+
+Cause : Inconnue
