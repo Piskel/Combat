@@ -10,7 +10,7 @@ DEBUT
 			FORCE_X = 100
 			FORCE_Y = -40
 
-			FRAME : ANIM = 7 ; DUREE = 110
+			FRAME : ANIM = 7 ; DUREE = 180
 			FRAME : ANIM = 8 ; DUREE = 170
 
 		FIN_COMBO
@@ -30,6 +30,52 @@ DEBUT
 			FORCE_Y = -200
 
 			FRAME : ANIM = 9 ; DUREE = 250
+
+		FIN_COMBO
+
+	FIN_COUP
+
+	Coup haut :
+
+	COUP 2 :
+
+		COMBO 0 :
+
+			COOLDOWN = 0
+			KO = 400
+			DEGATS = 40
+			FORCE_X = 300
+			FORCE_Y = -100
+
+			FRAME : ANIM = 10 ; DUREE = 90
+			FRAME : ANIM = 11 ; DUREE = 160
+			FRAME : ANIM = 12 ; DUREE = 140
+			FRAME : ANIM = 13 ; DUREE = 80
+			FRAME : ANIM = 14 ; DUREE = 80
+			FRAME : ANIM = 15 ; DUREE = 90
+			FRAME : ANIM = 16 ; DUREE = 100
+			FRAME : ANIM = 17 ; DUREE = 100
+			FRAME : ANIM = 18 ; DUREE = 150
+
+		FIN_COMBO
+
+	FIN_COUP
+
+	Coup côté :
+
+	COUP 3 :
+
+		COMBO 0 :
+
+			COOLDOWN = 0
+			KO = 200
+			DEGATS = 28
+			FORCE_X = 200
+			FORCE_Y = -50
+
+			FRAME : ANIM = 19 ; DUREE = 50
+			FRAME : ANIM = 20 ; DUREE = 100
+			FRAME : ANIM = 21 ; DUREE = 180
 
 		FIN_COMBO
 

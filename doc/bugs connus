@@ -1,20 +1,5 @@
--> ~0.2.0 et avant :
+- Le programme continue à dire "du jambon" quand la souris survole le buoton "Combat V.S." même quand il est en arrière plan.
 
-********************************************************************************
-1 : Vers l'infini et au-delà !
-********************************************************************************
+- L'IA est débile. C'est pas un bug mais ça vaut le coup de le dire (en plus c'est une sale spameuse je déteste les gens qui jouent comme ça)
 
-Conditions :
-
-Un bug qui arrive parfois, semble-t-il, quand les deux joueurs se frappent en même temps (à vérifier).
-NOTE : ne semble plus se produire depuis la 0.2.1 ou même avant... À vérifier.
-
-Descriptif :
-
-Les joueurs se mettent à s'envoler, comme s'ils recevaient des coups en continu (KO tout le temps en mode [F2]).
-
-Les joueurs cessent de s'envoler quand l'un d'eux change de direction ou frappe.
-
-Le décollage est parfois très rapide, d'où le nom du bug.
-
-Cause : Inconnue
+- Les collisions sont hyper mal gérées, ce qui donne lieu à des situations qui peuvent s'avérer cocasses.
