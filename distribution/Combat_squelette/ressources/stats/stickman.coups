@@ -1,0 +1,38 @@
+DEBUT
+
+	COUP 0 :
+
+		COMBO 0 :
+
+			COOLDOWN = 200
+			KO = 400
+			DEGATS = 32
+			FORCE_X = 100
+			FORCE_Y = -40
+
+			FRAME : ANIM = 7 ; DUREE = 110
+			FRAME : ANIM = 8 ; DUREE = 170
+
+		FIN_COMBO
+
+	FIN_COUP
+
+	Coup bas :
+
+	COUP 1 :
+
+		COMBO 0 :
+
+			COOLDOWN = 200
+			KO = 300
+			DEGATS = 20
+			FORCE_X = 20
+			FORCE_Y = -200
+
+			FRAME : ANIM = 9 ; DUREE = 250
+
+		FIN_COMBO
+
+	FIN_COUP
+
+FIN_FICHIER

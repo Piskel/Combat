@@ -1,0 +1,92 @@
+DEBUT
+
+	COUP 0 :
+
+		COMBO 0 :
+
+			COOLDOWN = 140
+			KO = 150
+			DEGATS = 20
+			FORCE_X = 140
+			FORCE_Y = -50
+
+			FRAME : ANIM = 10 ; DUREE = 160
+
+		FIN_COMBO
+
+		COMBO 1 :
+
+			COOLDOWN = 300
+			KO = 350
+			DEGATS = 32
+			FORCE_X = 190
+			FORCE_Y = -70
+
+			FRAME : ANIM = 11 ; DUREE = 80
+			FRAME : ANIM = 12 ; DUREE = 200
+
+		FIN_COMBO
+
+	FIN_COUP
+
+	Coup bas :
+
+	COUP 1 :
+
+		COMBO 0 :
+
+			COOLDOWN = 200
+			KO = 230
+			DEGATS = 12
+			FORCE_X = 70
+			FORCE_Y = -100
+
+			FRAME : ANIM = 13 ; DUREE = 200
+
+		FIN_COMBO
+
+	FIN_COUP
+
+	Coup Haut :
+
+	COUP 2 :
+		
+		COMBO 0 :
+
+			COOLDOWN = 50
+			KO = 750
+			DEGATS = 25
+			FORCE_X = 20
+			FORCE_Y = -200
+
+			FRAME : ANIM = 14 ; DUREE = 50
+			FRAME : ANIM = 15 ; DUREE = 250
+
+		FIN_COMBO
+
+	FIN_COUP
+
+	Coup de côté :
+
+	COUP 3 :
+		
+		COMBO 0 :
+
+			FEU
+
+			COOLDOWN = 200
+			KO = 200
+			DEGATS = 30
+			FORCE_X = 210
+			FORCE_Y = -80
+
+			FRAME : ANIM = 16 ; DUREE = 50
+			FRAME : ANIM = 17 ; DUREE = 20
+			FRAME : ANIM = 18 ; DUREE = 20
+			FRAME : ANIM = 19 ; DUREE = 70
+
+		FIN_COMBO
+
+	FIN_COUP
+
+FIN_FICHIER

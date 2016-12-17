@@ -1,0 +1,5 @@
+Pour recompiler vous-même les sources de ce projet, il vous suffit de copier-coller les bibliothèques partagées (.so) présentes dans le répertoire principal dans ce répertoire, puis de lancer le script "compilation.sh"
+
+Ce script admet deux options :
+[-r] pour recompiler tout le projet
+[-nw] pour compiler sans les warnings (à éviter, c'est surtout utile pour se focaliser sur les erreurs sans être noyé par les warnings)

@@ -1,0 +1,25 @@
+Le but de ce jeu est d'éliminer votre adversaire.
+
+Pour ce faire, il faut faire tomber ses points de vie à zéro, en lui infligeant des dommages.
+Plus la vie d'un joueur est faible, plus il sera réceptif aux attaques infligées. Si vous sortez des limites du terrain, vous commencerez à perdre de la vie régulièrement.
+
+Si vous êtes le joueur 1, utilisez les flèches du clavier pour vous diriger, sauter et vous accroupir, et la touche 'Ctrl' pour attaquer.
+
+Si vous êtes le joueur 2, utilisez Z, Q, S, et D pour vous diriger, sauter et vous accroupir, et la touche 'Shift' pour attaquer.
+
+
+Plusieurs attaques sont disponibles :
+
+- L'attaque de base, obtenue en  appuyant simplement sur la touche "attaque" ;
+- l'attaque haute, obtenue en appuyant simultanément sur la touche "saut" et sur la touche "attaque" ;
+- l'attaque basse, qui se déclanche lorsque l'on appuie sur "attaque" alors que le personnage est accroupi ;
+- il est également possible d'effectuer une roulade pour esquiver un coup ou se glisser sournoisement derrière un adversaire. Pour ce faire, il suffit de presser en même temps sur la touche "attaque" et sur une direction latérale.
+
+
+Conseils :
+
++ Vous accroupir permet de mieux résister aux attaques de votre adversaire ; vous prendrez moins de dégats et volerez moins loin.
+
++ La roulade vous permet d'être très réactif et d'esquiver un coup prévisible. Vous pouvez également vous en servir pour vous placer directement derrière votre adversaire et profiter qu'il soit dans le mauvais sens pour lui asséner une attaque avec une faible portée.
+
++ Appuyez sur [F1] pour avoir accès au mode développeur : vous verrez les hitbox ainsi que les effets de KO et les cooldown des coups. Appuyez de nouveau sur [F1] pour revenir au mode normal.

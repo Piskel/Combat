@@ -1,0 +1,108 @@
+-> v0 :
+
+Premier prototype du jeu, un seul personnage et trois coups.
+Système de combat fonctionnel mais à changer, physique basique, mais
+fonctionnelle.
+
+Code plutôt sale, avec les stats du perso dans le code, donc à changer.
+
+-> v0.1 :
+
+-- Petite mise à jour du prototype de base.
+
+0.1.0 : version fonctionnelle
+0.1.1 : version fonctionnelle + gameplay
+
+[0.1.0] Mise à jour du système de combat qui devient meilleur. (avant on recevait plus de dommages si on restait longtemps sur la hitbox du coup)
+[0.1.0] Maintenant, les dégats sont constants, et si on est accroupi, on prend moins de dégats et on vole moins.
+[0.1.0] Changement des touches.
+
+[0.1.1] Introduction d'une IA (très basique) pour les tests principalement.
+[0.1.1] Menu de sélection entre mode 1 joueur et le mode deux joueurs.
+[0.1.1] Menu de pause (non fonctionnel mais permet d'arrêter le jeu)
+[0.1.1] On meurt quand on sort trop de l'écran (à la SSB)
+[0.1.1] Équilibrage
+
+-> v0.2 :
+
+-- Version plus jolie, plus propre, plus souple, qui permet de facilement ajouter des personnages.
+
+0.2.0 : version fonctionnelle
+0.2.1 : ajouts graphiques majeurs + gameplay
+0.2.2 : restructuration du code + gameplay
+
+[0.2.0] Charger les hitbox du perso depuis un fichier
+[0.2.0] l'IA peut sauter
+[0.2.0] Couleurs dans la barre de vie
+[0.2.0] Amélioration du code
+
+[0.2.1] Quand on sort de l'écran, on perd des PV mais on ne meurt pas
+[0.2.1] La caméra bouge et il y a un fond (enfin)
+[0.2.1] Menu de pause fonctionnel
+[0.2.1] Sélection de la difficultée de l'IA
+[0.2.1] On ne meurt plus quand on sort de l'écran, on perd des PV
+
+[0.2.2] Chargement des stats et coups du perso depuis des fichiers
+[0.2.2] Deuxième fond pour un effet 3D saisissant
+[0.2.2] Ajout du personnage stickman, pour les tests de sélection
+[0.2.2] Correction de petits problèmes quand on est tapé
+[0.2.2] Animation pour les demi-tours
+
+-> Objectifs pour la 0.3 : (possiblement alpha du jeu)
+
+-- Version plus amusante et variée. (création de contenu)
+
+OBJECTIFS :
+
+Introduire des nouveaux persos, des nouveaux coups et équilibrer le jeu.
+Faire des cartes avec des plateformes. (peut-être, sinon le faire en 0.4 ou en 1.0 (ou jamais))
+Faire des menus plus ergonomiques et plus jolis
+Assouplir encore le code
+Retravailler le code
+version Windows
+Présenter le projet sur ZdS et peut-être OC.
+(Quête annexe) : mettre à jour l'IA pour qu'elle utilise les nouvelles fonctionalités
+
+[Fait :]
+
+[0.3.0] Ajout de nouveaux coups, avec un nouveau système de détection d'input et création de libinput
+[0.3.0] Ajout d'effets de particules
+[0.3.0] Implémentation de l'esquive (encore peu ergonomique car sur la touche "attaque"
+[0.3.0] Accélération de la vitesse du jeu
+
+[0.3.1] Nouvel arrière-plan (donc 3 calques qui bougent à des vitesses différentes) et petit effet 3D sur le premier calque.
+[0.3.1] Changement graphique de la map "temple"
+[0.3.1] Des menus qui sont un peu moins sales !
+[0.3.1] Une sélection de personnages (enfin) (qui s'adapte en fonction du nombre de combattants disponibles dans le jeu)
+[0.3.1] Le dash (esquive) s'effectue maintenant quand on appuie deux fois rapidement sur un côté
+[0.3.1] Nouveau coup : côté + attaque
+[0.3.1] Collisions basiques
+[0.3.1] Effets sonores de basse qualité + musique libre random
+[0.3.1] Les crédits sont enfin dans la place afin que le monde sache qui a créé ce jeu démoniaque
+
+-> Objectifs pour la 0.4 : (bêta)
+
+-- Version bêta
+
+OBJECTIFS :
+
+Améliorations, objets, idées de la communauté, plus de contenu, de cartes, de personnages...
+Son, musique, effets visuels pour donner de la personalité au projet
+Changer le système physique pour permettre des cartes plus originales (?)
+Sauvegarde, progression.
+Ébauche d'un mode aventure ? (un peu trollesque sur les bords)
+Configuration des touches clavier (et manette ?)
+
+-> Objectifs pour la 1.0 :
+
+-- Version finale
+
+OBJECTIFS :
+
+Avoir un jeu agréable à jouer, intuitif, simple, mais intéressant niveau gameplay, avoir un bon équilibre entre les personnages. (~ 0.3 - 0.4)
+Avoir au moins trois personnages (plus si possible) - objectif 6-8
+Ajouter de la musique et des effets sonores
+Mode aventure avec persos à débloquer ?
+Avoir un code souple et facilement modulable (0.2 - 0.3)
+
+
