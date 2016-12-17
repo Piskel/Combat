@@ -1,5 +1,0 @@
-Si vous voulez recompiler les sources après avoir effectué une modification, le script 'compilation.sh' est à votre disposition. Il suffit de le lancer en faisant './compilation.sh' et la compilation va se lancer (en utilisant tous les fichiers .cpp présents dans le dossier 'code', donc vous pouvez ajouter des fichiers, et en utilisant toutes les bibliothèques dans le répértoire où il se trouve (.so)).
-
-Par défaut, le compilateur g++ utilise l'option -Wall. Si toutefois vous ne désirez pas d'avertissements, vous pouvez utiliser l'option -nw (no warnings).
-
-Le compilateur ne recompile pas un fichier s'il n'a pas été modifié depuis sa dernière compilation. Si vous voulez malgré tout recompiler tout le projet, vous pouvez utiliser l'option -r.
